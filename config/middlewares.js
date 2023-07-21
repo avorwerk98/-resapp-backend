@@ -9,11 +9,4 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {settings: {
-    cors: {
-      enabled: true,
-      origin: ["https://newrestaurant-onf5.vercel.app"],
-    },
-  }
-}
 ];
