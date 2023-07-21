@@ -10,7 +10,7 @@ module.exports = ({ env }) => {
     mysql: {
       connection: {
         connectionString: env("DATABASE_URL"),
-        host: env("DATABASE_HOST", "127.0.0.1"),
+        host: env("DATABASE_HOST", "https://strapi-lh2y.onrender.com"),
         port: env.int("DATABASE_PORT", 5432),
         database: env("DATABASE_NAME", "strapi"),
         user: env("DATABASE_USERNAME", "strapi"),
